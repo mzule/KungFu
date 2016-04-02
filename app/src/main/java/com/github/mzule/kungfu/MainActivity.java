@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.github.mzule.kungfu.classloader.ClassLoaderActivity;
+import com.github.mzule.kungfu.deeplink.DeepLinkActivity;
 import com.github.mzule.kungfu.nuwa.NuwaActivity;
 import com.github.mzule.kungfu.palette.PaletteActivity;
 import com.github.mzule.kungfu.xmlpull.XmlPullActivity;
@@ -21,7 +22,7 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
         LinearLayout container = (LinearLayout) findViewById(R.id.container);
 
-        Class[] classes = new Class[]{PaletteActivity.class, ClassLoaderActivity.class, XmlPullActivity.class, NuwaActivity.class};
+        Class[] classes = new Class[]{PaletteActivity.class, ClassLoaderActivity.class, XmlPullActivity.class, NuwaActivity.class, DeepLinkActivity.class};
         for (final Class cls : classes) {
             Button button = new Button(this);
             container.addView(button, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
