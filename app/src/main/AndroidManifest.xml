@@ -37,6 +37,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".deeplink.DeepLinkActivity" />
+        <activity android:name=".autovalue.UserActivity" />
     </application>
 
 </manifest>
