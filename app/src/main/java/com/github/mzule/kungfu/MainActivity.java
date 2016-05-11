@@ -13,6 +13,7 @@ import com.github.mzule.kungfu.classloader.ClassLoaderActivity;
 import com.github.mzule.kungfu.deeplink.DeepLinkActivity;
 import com.github.mzule.kungfu.nuwa.NuwaActivity;
 import com.github.mzule.kungfu.palette.PaletteActivity;
+import com.github.mzule.kungfu.rxjava.RxImageActivity;
 import com.github.mzule.kungfu.xmlpull.XmlPullActivity;
 
 public class MainActivity extends FragmentActivity {
@@ -30,6 +31,7 @@ public class MainActivity extends FragmentActivity {
                 NuwaActivity.class,
                 DeepLinkActivity.class,
                 UserActivity.class,
+                RxImageActivity.class,
         };
         for (final Class cls : classes) {
             Button button = new Button(this);

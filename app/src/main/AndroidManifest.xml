@@ -38,6 +38,7 @@
         </activity>
         <activity android:name=".deeplink.DeepLinkActivity" />
         <activity android:name=".autovalue.UserActivity" />
+        <activity android:name=".rxjava.RxImageActivity" />
     </application>
 
 </manifest>
