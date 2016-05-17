@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import com.github.mzule.kungfu.autovalue.UserActivity;
 import com.github.mzule.kungfu.classloader.ClassLoaderActivity;
 import com.github.mzule.kungfu.deeplink.DeepLinkActivity;
+import com.github.mzule.kungfu.imageprocess.ColorFilterActivity;
 import com.github.mzule.kungfu.nuwa.NuwaActivity;
 import com.github.mzule.kungfu.palette.PaletteActivity;
 import com.github.mzule.kungfu.rxjava.RxImageActivity;
@@ -32,6 +33,7 @@ public class MainActivity extends FragmentActivity {
                 DeepLinkActivity.class,
                 UserActivity.class,
                 RxImageActivity.class,
+                ColorFilterActivity.class,
         };
         for (final Class cls : classes) {
             Button button = new Button(this);
