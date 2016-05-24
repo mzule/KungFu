@@ -39,7 +39,8 @@
         <activity android:name=".deeplink.DeepLinkActivity" />
         <activity android:name=".autovalue.UserActivity" />
         <activity android:name=".rxjava.RxImageActivity" />
-        <activity android:name=".imageprocess.ColorFilterActivity"/>
+        <activity android:name=".imageprocess.ColorFilterActivity" />
+        <activity android:name=".design.CoordinatorActivity" />
     </application>
 
 </manifest>

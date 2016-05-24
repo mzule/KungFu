@@ -33,4 +33,5 @@ dependencies {
     apt 'com.google.auto.value:auto-value:1.2-rc1'
     compile 'io.reactivex:rxjava:1.0.14'
     compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'com.android.support:design:23.2.0'
 }
