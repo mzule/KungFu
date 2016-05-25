@@ -12,6 +12,7 @@ import com.github.mzule.kungfu.autovalue.UserActivity;
 import com.github.mzule.kungfu.banner.BannerActivity;
 import com.github.mzule.kungfu.classloader.ClassLoaderActivity;
 import com.github.mzule.kungfu.deeplink.DeepLinkActivity;
+import com.github.mzule.kungfu.design.AppBarActivity;
 import com.github.mzule.kungfu.design.CoordinatorActivity;
 import com.github.mzule.kungfu.imageprocess.ColorFilterActivity;
 import com.github.mzule.kungfu.nuwa.NuwaActivity;
@@ -38,6 +39,7 @@ public class MainActivity extends FragmentActivity {
                 ColorFilterActivity.class,
                 CoordinatorActivity.class,
                 BannerActivity.class,
+                AppBarActivity.class,
         };
         for (final Class cls : classes) {
             Button button = new Button(this);

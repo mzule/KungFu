@@ -42,6 +42,7 @@
         <activity android:name=".imageprocess.ColorFilterActivity" />
         <activity android:name=".design.CoordinatorActivity" />
         <activity android:name=".banner.BannerActivity" />
+        <activity android:name=".design.AppBarActivity" />
     </application>
 
 </manifest>
