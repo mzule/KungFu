@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.github.mzule.kungfu.autovalue.UserActivity;
+import com.github.mzule.kungfu.banner.BannerActivity;
 import com.github.mzule.kungfu.classloader.ClassLoaderActivity;
 import com.github.mzule.kungfu.deeplink.DeepLinkActivity;
 import com.github.mzule.kungfu.design.CoordinatorActivity;
@@ -36,6 +37,7 @@ public class MainActivity extends FragmentActivity {
                 RxImageActivity.class,
                 ColorFilterActivity.class,
                 CoordinatorActivity.class,
+                BannerActivity.class,
         };
         for (final Class cls : classes) {
             Button button = new Button(this);

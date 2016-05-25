@@ -41,6 +41,7 @@
         <activity android:name=".rxjava.RxImageActivity" />
         <activity android:name=".imageprocess.ColorFilterActivity" />
         <activity android:name=".design.CoordinatorActivity" />
+        <activity android:name=".banner.BannerActivity" />
     </application>
 
 </manifest>
