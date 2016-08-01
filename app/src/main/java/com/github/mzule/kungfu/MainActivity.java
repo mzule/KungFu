@@ -18,6 +18,7 @@ import com.github.mzule.kungfu.imageprocess.ColorFilterActivity;
 import com.github.mzule.kungfu.nuwa.NuwaActivity;
 import com.github.mzule.kungfu.palette.PaletteActivity;
 import com.github.mzule.kungfu.rxjava.RxImageActivity;
+import com.github.mzule.kungfu.transition.ViewTransitionActivity;
 import com.github.mzule.kungfu.xmlpull.XmlPullActivity;
 
 public class MainActivity extends FragmentActivity {
@@ -40,6 +41,7 @@ public class MainActivity extends FragmentActivity {
                 CoordinatorActivity.class,
                 BannerActivity.class,
                 AppBarActivity.class,
+                ViewTransitionActivity.class,
         };
         for (final Class cls : classes) {
             Button button = new Button(this);

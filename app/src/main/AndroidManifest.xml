@@ -43,6 +43,7 @@
         <activity android:name=".design.CoordinatorActivity" />
         <activity android:name=".banner.BannerActivity" />
         <activity android:name=".design.AppBarActivity" />
+        <activity android:name=".transition.ViewTransitionActivity" />
     </application>
 
 </manifest>
